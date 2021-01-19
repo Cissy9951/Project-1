@@ -1,0 +1,359 @@
+body {
+    background-image: url(1125px-Constable_Salisbury_meadows.jpg);
+    background-attachment: fixed;
+    background-size: 1920px auto;
+    object-fit: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    margin: 20px 78px 78px 78px;
+}
+
+p {
+    font-family: "Texturina";
+    font-weight: 700;
+    font-size: 13pt;
+    color:rgb(88, 31, 31);
+}
+
+.dia {
+    color:rgb(88, 31, 31);
+    font-weight: 500;
+}
+
+.main p {
+    text-indent: 20px;
+}
+
+.main .break {
+ height: 25vh;
+ min-height: 50px;
+}
+
+.title {
+    font-family: "Almendra SC";
+    width: 1000px;
+    text-align: center;
+    padding-bottom: 25px;
+    background-color: rgba(177, 121, 37, 0.75);
+    border: 50px solid transparent;
+    border-image-source: url(femhrsv0mmrbo7uc86nul6mit2.png);
+    border-image-repeat: repeat round;
+    border-image-slice: 30%;
+    border-radius: 60px;
+}
+
+h1 {
+    font-size: 30pt;
+    padding-bottom: 15px;
+    line-height: 18px;
+    color:rgb(88, 31, 31);
+}
+
+h2 {
+    font-size: 24pt;
+    color:rgb(88, 31, 31);
+}
+
+h3 {
+    font-size:18pt;
+    color:rgb(88, 31, 31);
+}
+
+.cover {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    margin: 5vh 20vw;
+}
+
+.cover .break {
+    width: 15vw;
+    height: auto;
+}
+
+.cover img {
+    height: auto;
+    width: 10vw;
+    object-position: center center;
+}
+
+.footer {
+    width: 1000px;
+    height: auto;
+    border: 50px solid transparent;
+    border-image-source: url(kisspng-gold-clip-art-5ae39299ec61a4.0764439115248636419682.png);
+    border-image-repeat: round;
+    border-image-slice: 40% 20% 40% 20%;
+    border-radius: 60px;
+    background-color: rgba(177, 121, 37, 0.75);
+}
+
+.footer h2 {
+    font-family: "Almendra SC";
+    color:rgb(88, 31, 31);
+}
+
+.footer p {
+    text-indent: -20px;
+    margin-left: 20px;
+    color:rgb(88, 31, 31);
+}
+
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.text {
+    width: 500px;
+    height: auto;
+    grid-column: 1 / span 1;
+    background-image: url(File_000.jpeg);
+    background-position: center;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.intro {
+    width: 1000px;
+    height: auto;
+    border: 50px solid transparent;
+    border-image-source: url(kisspng-lace-textile-embroidery-pattern-embroidery-5abdfda7a10510.3362613715224006796595.png);
+    border-image-repeat: round;
+    border-image-slice: 30%;
+    border-radius: 60px;
+    background-color: rgba(119, 40, 40, 0.75);
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+.intro img {
+    width: 300px;
+    height: auto;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: 115px;
+    top: 50px;
+}
+
+
+.first-night {
+    width: 1000px;
+    height: auto;
+    background-color: rgba(168, 76, 33, 0.75);
+    border: 50px solid transparent;
+    border-image-source: url(kisspng-gold-clip-art-5ae39299ec61a4.0764439115248636419682.png);
+    border-image-repeat: round;
+    border-image-slice: 30%;
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+.first-night img {
+    width: 400px;
+    height: auto;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: 75px;
+    top: 200px;
+}
+
+.second-night {
+    width: 1000px;
+    height: auto;
+    background-color: rgba(207, 164, 23, 0.75);
+    border: 50px solid transparent;
+    border-image-source: url(kisspng-lace-textile-embroidery-pattern-embroidery-5abdfda7a10510.3362613715224006796595.png);
+    border-image-repeat: round repeat;
+    border-image-slice: 40%;
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 500px 500px; 
+}
+
+.second-night img {
+    width: 400px;
+    height: auto;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: 70px;
+    top: 225px;
+}
+
+.third-night {
+    width: 1000px;
+    height: auto;
+    background-color: rgba(85, 151, 58, 0.75);
+    border: 50px solid transparent;
+    border-image-source: url(femhrsv0mmrbo7uc86nul6mit2.png);
+    border-image-repeat: round;
+    border-image-slice: 35%; 
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 500px 500px; 
+}
+
+.third-night img {
+    width: 400px;
+    height: auto;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: 50px;
+    top: 450px;
+}
+
+.castle {
+    width: 1000px;
+    height: auto;
+    background-color: rgba(53, 201, 132, 0.75);
+    border: 50px solid transparent;
+    border-image-source: url(embroider-now-lace-embroidery-pattern-lace-ff5112e3fd49e983b4e192f9e1dfc0f1.png);
+    border-image-repeat: round;
+    border-image-slice: 41.5%;
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 500px 500px;  
+}
+
+.castle img {
+    width: 450px;
+    height: auto;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: 45px;
+    top: 350px;
+}
+
+.older-brother {
+    width: 1000px;
+    height: auto;
+    background-color: rgb(56, 111, 161, 0.75);
+    border: 50px solid transparent;
+    border-image-source: url(femhrsv0mmrbo7uc86nul6mit2.png);
+    border-image-repeat: round;
+    border-image-slice: 30% 40% 30% 40%;
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 500px 500px;  
+}
+
+.older-brother img {
+    width: 400px;
+    height: auto;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: 75px;
+    top: 125px;
+}
+
+.youngest-brother {
+    width: 1000px;
+    height: auto;
+    background-color: rgba(97, 105, 190, 0.75);
+    border: 50px solid transparent;
+    border-image-source: url(kisspng-lace-textile-embroidery-pattern-embroidery-5abdfda7a10510.3362613715224006796595.png);
+    border-image-repeat: round;
+    border-image-slice: 35%;
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 500px 500px; 
+}
+
+.youngest-brother img {
+    width: 450px;
+    height: auto;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: 40px;
+    top: 300px;
+}
+
+.betrayal {
+    width: 1000px;
+    height: auto;
+    background-color: rgb(161, 102, 161, 0.75);
+    border: 50px solid transparent;
+    border-image-source: url(kisspng-gold-clip-art-5ae39299ec61a4.0764439115248636419682.png);
+    border-image-repeat: round;
+    border-image-slice: 40% 28% 40% 28%;
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 500px 500px; 
+}
+
+.betrayal img {
+    width: 450px;
+    height: auto;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: 40px;
+    top: 550px;
+}
+
+.jubal {
+    width: 1000px;
+    height: auto;
+    background-color: rgb(182, 107, 135, 0.75);
+    border: 50px solid transparent;
+    border-image-source: url(kisspng-lace-textile-embroidery-pattern-embroidery-5abdfda7a10510.3362613715224006796595.png);
+    border-image-repeat: round;
+    border-image-slice: 35% 40% 35% 40%;
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 500px 500px; 
+}
+
+.jubal img {
+    width: 450px;
+    height: auto;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: 45px;
+    top: 250px;
+}
+
+.princess {
+    width: 1000px;
+    height: auto;
+    background-color: rgba(143, 52, 67, 0.75);
+    border: 50px solid transparent;
+    border-image-source: url(femhrsv0mmrbo7uc86nul6mit2.png);
+    border-image-repeat: round;
+    border-image-slice: 25% 35% 25% 35%;
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 500px 500px; 
+    grid-column: 1 / span 1;
+}
+
+.princess img {
+    width: 450px;
+    height: auto;
+    grid-column: 2 / span 1;
+    left: 45px;
+    position: relative;
+    top: 700px
+}
+
+.ending {
+    width: 1000px;
+    height: auto;
+    background-color: rgba(129, 36, 29, 0.75);
+    border: 50px solid transparent;
+    border-image-source: url(kisspng-lace-textile-embroidery-pattern-embroidery-5abdfda7a10510.3362613715224006796595.png);
+    border-image-repeat: round;
+    border-image-slice: 30%;
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 500px 500px; 
+}
+
+.ending img {
+    width: 300px;
+    height: auto;
+    grid-column: 2 / span 1;
+    position: relative;
+    left: 120px;
+    top: 3px;
+}
