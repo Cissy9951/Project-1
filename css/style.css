@@ -12,6 +12,12 @@ p {
     font-family: "Texturina";
     font-weight: 700;
     font-size: 13pt;
+    color: rgba(88, 31, 31, 0.5);
+}
+
+p:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(88, 31, 31);
     color:rgb(88, 31, 31);
 }
 
@@ -33,13 +39,18 @@ p {
     font-family: "Almendra SC";
     width: 1000px;
     text-align: center;
-    padding-bottom: 25px;
     background-color: rgba(177, 121, 37, 0.75);
     border: 50px solid transparent;
     border-image-source: url(femhrsv0mmrbo7uc86nul6mit2.png);
     border-image-repeat: repeat round;
     border-image-slice: 30%;
     border-radius: 60px;
+    margin-bottom: 175px;
+}
+
+.title:hover{
+    box-shadow:20px 20px rgba(66, 45, 14, 0.75);
+    background-color: rgba(177, 121, 37);
 }
 
 h1 {
@@ -52,11 +63,13 @@ h1 {
 h2 {
     font-size: 24pt;
     color:rgb(88, 31, 31);
+    line-height: 18px;
 }
 
 h3 {
     font-size:18pt;
     color:rgb(88, 31, 31);
+    line-height: 18px;
 }
 
 .cover {
@@ -67,13 +80,13 @@ h3 {
 }
 
 .cover .break {
-    width: 15vw;
+    width: 300px;
     height: auto;
 }
 
 .cover img {
     height: auto;
-    width: 10vw;
+    width: 140px;
     object-position: center center;
 }
 
@@ -86,6 +99,11 @@ h3 {
     border-image-slice: 40% 20% 40% 20%;
     border-radius: 60px;
     background-color: rgba(177, 121, 37, 0.75);
+}
+
+.footer:hover{
+    box-shadow:20px 20px rgba(66, 45, 14, 0.75);
+    background-color: rgba(177, 121, 37);
 }
 
 .footer h2 {
@@ -127,6 +145,11 @@ h3 {
     grid-template-columns: 500px 500px;
 }
 
+.intro:hover{
+    box-shadow:20px 20px rgba(43, 14, 14, 0.75);
+    background-color: rgba(119, 40, 40);
+}
+
 .intro img {
     width: 300px;
     height: auto;
@@ -148,6 +171,11 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px;
+}
+
+.first-night:hover{
+    box-shadow:20px 20px rgba(63, 29, 13, 0.75);
+    background-color: rgba(168, 76, 33);
 }
 
 .first-night img {
@@ -172,6 +200,11 @@ h3 {
     grid-template-columns: 500px 500px; 
 }
 
+.second-night:hover{
+    box-shadow:20px 20px rgba(95, 75, 11, 0.75);
+    background-color: rgba(207, 164, 23);
+}
+
 .second-night img {
     width: 400px;
     height: auto;
@@ -192,6 +225,11 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
+}
+
+.third-night:hover{
+    box-shadow:20px 20px rgba(29, 51, 20, 0.75);
+    background-color: rgba(85, 151, 58);
 }
 
 .third-night img {
@@ -216,6 +254,11 @@ h3 {
     grid-template-columns: 500px 500px;  
 }
 
+.castle:hover{
+    box-shadow:20px 20px rgba(26, 99, 65, 0.75);
+    background-color: rgba(53, 201, 132);
+}
+
 .castle img {
     width: 450px;
     height: auto;
@@ -236,6 +279,11 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px;  
+}
+
+.older-brother:hover{
+    box-shadow:20px 20px rgba(25, 48, 70, 0.75);
+    background-color: rgb(56, 111, 161);
 }
 
 .older-brother img {
@@ -260,6 +308,11 @@ h3 {
     grid-template-columns: 500px 500px; 
 }
 
+.youngest-brother:hover{
+    box-shadow:20px 20px rgba(50, 54, 97, 0.75);
+    background-color: rgba(97, 105, 190);
+}
+
 .youngest-brother img {
     width: 450px;
     height: auto;
@@ -282,6 +335,11 @@ h3 {
     grid-template-columns: 500px 500px; 
 }
 
+.betrayal:hover{
+    box-shadow:20px 20px rgba(66, 42, 66, 0.75);
+    background-color: rgb(161, 102, 161);
+}
+
 .betrayal img {
     width: 450px;
     height: auto;
@@ -302,6 +360,11 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
+}
+
+.jubal:hover{
+    box-shadow:20px 20px rgba(77, 45, 56, 0.75);
+    background-color: rgb(182, 107, 135);
 }
 
 .jubal img {
@@ -327,6 +390,11 @@ h3 {
     grid-column: 1 / span 1;
 }
 
+.princess:hover{
+    box-shadow:20px 20px rgba(51, 18, 24, 0.75);
+    background-color: rgba(143, 52, 67);
+}
+
 .princess img {
     width: 450px;
     height: auto;
@@ -347,6 +415,11 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
+}
+
+.ending:hover{
+    box-shadow:20px 20px rgba(43, 12, 9, 0.75);
+    background-color: rgba(129, 36, 29);
 }
 
 .ending img {
