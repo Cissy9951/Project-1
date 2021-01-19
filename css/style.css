@@ -5,7 +5,6 @@ body {
     object-fit: cover;
     background-repeat: repeat-y;
     background-position: center;
-    margin: 20px 78px 78px 78px;
 }
 
 p {
@@ -16,8 +15,6 @@ p {
 }
 
 p:hover{
-    text-decoration: underline;
-    text-decoration-color:rgb(88, 31, 31);
     color:rgb(88, 31, 31);
 }
 
@@ -46,6 +43,8 @@ p:hover{
     border-image-slice: 30%;
     border-radius: 60px;
     margin-bottom: 175px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title:hover{
@@ -99,6 +98,8 @@ h3 {
     border-image-slice: 40% 20% 40% 20%;
     border-radius: 60px;
     background-color: rgba(177, 121, 37, 0.75);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer:hover{
@@ -120,6 +121,7 @@ h3 {
 .main {
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
 }
 
 .text {
@@ -143,6 +145,8 @@ h3 {
     background-color: rgba(119, 40, 40, 0.75);
     display: grid;
     grid-template-columns: 500px 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .intro:hover{
@@ -171,6 +175,8 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .first-night:hover{
@@ -198,6 +204,8 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .second-night:hover{
@@ -225,6 +233,8 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .third-night:hover{
@@ -252,6 +262,8 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px;  
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .castle:hover{
@@ -278,7 +290,9 @@ h3 {
     border-image-slice: 30% 40% 30% 40%;
     border-radius: 60px;
     display: grid;
-    grid-template-columns: 500px 500px;  
+    grid-template-columns: 500px 500px; 
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .older-brother:hover{
@@ -306,6 +320,8 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .youngest-brother:hover{
@@ -333,6 +349,8 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .betrayal:hover{
@@ -360,6 +378,8 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .jubal:hover{
@@ -388,6 +408,8 @@ h3 {
     display: grid;
     grid-template-columns: 500px 500px; 
     grid-column: 1 / span 1;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .princess:hover{
@@ -415,6 +437,8 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ending:hover{
