@@ -48,6 +48,8 @@ p:hover{
     margin-top: 20px;
 }
 
+
+
 .title:hover{
     box-shadow:20px 20px rgba(66, 45, 14, 0.75);
     background-color: rgba(177, 121, 37);
@@ -120,9 +122,10 @@ h3 {
 }
 
 .main {
+    width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    align-items: center;
 }
 
 .text {
@@ -146,8 +149,6 @@ h3 {
     background-color: rgba(119, 40, 40, 0.75);
     display: grid;
     grid-template-columns: 500px 500px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .intro:hover{
@@ -176,8 +177,6 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .first-night:hover{
@@ -205,8 +204,6 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .second-night:hover{
@@ -234,8 +231,6 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .third-night:hover{
@@ -263,8 +258,7 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px;  
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .castle:hover{
@@ -292,8 +286,7 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
-    margin-left: auto;
-    margin-right: auto; 
+
 }
 
 .older-brother:hover{
@@ -321,8 +314,7 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .youngest-brother:hover{
@@ -350,8 +342,7 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .betrayal:hover{
@@ -379,8 +370,7 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .jubal:hover{
@@ -409,8 +399,7 @@ h3 {
     display: grid;
     grid-template-columns: 500px 500px; 
     grid-column: 1 / span 1;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .princess:hover{
@@ -438,8 +427,7 @@ h3 {
     border-radius: 60px;
     display: grid;
     grid-template-columns: 500px 500px; 
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .ending:hover{
